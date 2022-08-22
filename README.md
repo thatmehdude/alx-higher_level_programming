@@ -1,1 +1,0 @@
-Learning high level programming

@@ -12,6 +12,5 @@ def write_file(filename="", text=""):
         Exception: when the file can be opened
     """
 
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding="utf-8") as f:
         return f.write(text)
-

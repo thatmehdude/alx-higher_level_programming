@@ -72,8 +72,10 @@ class Rectangle(Base):
     def display(self):
         """returns a visual representation of the rctangle
         The rectangle is represented with the # character"""
-
-        print("\n".join(["".join(["#" for j in range(self.width)]) for i in range(self.height)]))
+        for _ in range(self.y):
+            print()
+        for i in range(self.height):
+            print(" " * self.x + "#" * self.width)
 
     def __str__(self):
         """returns the string representation of the rectangle class"""

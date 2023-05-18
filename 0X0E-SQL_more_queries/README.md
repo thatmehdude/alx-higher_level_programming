@@ -1,1 +1,1 @@
-Learning more SQL queries
+Learning a lot more SQL queries
